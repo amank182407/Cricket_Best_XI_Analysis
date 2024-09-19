@@ -7,15 +7,70 @@
 
 ---
 
-This project focuses on web scraping T20 World Cup 2022 data from ESPN Cricinfo using Bright Data, Python, and Pandas. As a data analyst, you'll transform and clean the data, then create a Power BI dashboard to identify the best-performing players. Key tasks include extracting data, visualizing player statistics, and providing insights for informed team selection. The dashboard aids decision-makers in choosing the best 11 players based on comprehensive data analysis, enhancing your technical and analytical skills.
-• Scraped 10,000+ rows of player data from ESPN cricinfo using Bright 
-Data for T20 World Cup 2022 analysis. 
-• Cleaned and transformed 100,000+ data points using Pandas to ensure 
-accurate player performance metrics. 
-• Created interactive Power BI dashboards visualizing 20+ key statistics, 
-identifying top-performing players. 
-• Analyzed performance data of 100+ players to determine the optimal 
-11-player team combination across all participating countries. 
+# T20 World Cup 2022 Data Analysis
+
+This project focuses on scraping, transforming, and visualizing T20 World Cup 2022 player performance data to help identify the best-performing players. The analysis aids in selecting the optimal 11-player team based on comprehensive data analysis using Python, Pandas, Bright Data, and Power BI.
+
+## Project Overview
+
+- **Data Source**: ESPN Cricinfo
+- **Tools**: Python, Pandas, Bright Data, Power BI
+- **Data Points**: 10,000+ rows, 100,000+ data points
+- **Key Metrics**: 20+ key statistics analyzed for 100+ players
+
+## Features
+
+1. **Web Scraping**:
+   - Extracted over 10,000 rows of T20 World Cup 2022 player data using Bright Data.
+   
+2. **Data Cleaning & Transformation**:
+   - Cleaned and processed over 100,000 data points using Pandas to ensure accurate and reliable player statistics.
+   
+3. **Interactive Dashboards**:
+   - Created dynamic and interactive Power BI dashboards showcasing 20+ key performance statistics.
+   - Visualized data on player performance to help identify top-performing players.
+
+4. **Team Selection Analysis**:
+   - Analyzed player performance data from 100+ players across all participating teams.
+   - Provided insights and recommendations for selecting the best 11-player team based on comprehensive data.
+
+## Key Tasks
+
+- **Web Scraping**: Use Bright Data and Python to extract T20 World Cup 2022 player data.
+- **Data Cleaning**: Apply Pandas for transforming and cleaning scraped data.
+- **Dashboard Development**: Leverage Power BI for visualizing key player statistics.
+- **Player Analysis**: Perform detailed analysis to assist in selecting the optimal team.
+
+## Skills Developed
+
+- Data scraping using Bright Data and Python
+- Data cleaning and transformation using Pandas
+- Data visualization with Power BI
+- Analytical insights for team selection
+
+## Getting Started
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/t20-worldcup-analysis.git
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the scraping script**:
+   ```bash
+   python scrape_data.py
+   ```
+
+4. **Analyze the data and generate insights**:
+   The cleaned data can be visualized using Power BI dashboards provided in the `dashboards` folder.
+
+---
+
+This template can be modified as per your repository structure and additional details. 
 
 > To interact with the dashboard you can download the pbix file from the repository and open it in Power BI Desktop locally.
 
@@ -34,18 +89,18 @@ identifying top-performing players.
 
 # Screenshots of the Dashboard:
 
-![power_hitters_and_openers](https://user-images.githubusercontent.com/81465377/211144386-48070a65-7e8b-4370-af44-121b878b554b.jpg)
+![power_hitters_and_openers](https://github.com/amank182407/Cricket_Best_XI_Analysis/blob/ef928af308adb5bb9c5918390be143fb44fa82cf/Screenshots/power_hitters_and_openers.jpg)
 
-![hover_effect](https://user-images.githubusercontent.com/81465377/211144410-6e11c0cd-ab86-4357-b272-9019f5efa445.jpg)
+![hover_effect](https://github.com/amank182407/Cricket_Best_XI_Analysis/blob/ef928af308adb5bb9c5918390be143fb44fa82cf/Screenshots/hover_effect.jpg)
 
-![individual_stats](https://user-images.githubusercontent.com/81465377/211144427-bfb260dc-3586-4db2-879c-6d84f4e8ca2d.jpg)
+![individual_stats](https://github.com/amank182407/Cricket_Best_XI_Analysis/blob/ef928af308adb5bb9c5918390be143fb44fa82cf/Screenshots/individual_stats.jpg)
 
-![anchors](https://user-images.githubusercontent.com/81465377/211144441-423d3ba3-76ab-49bf-b0d7-9b107ca2086f.jpg)
+![anchors](https://github.com/amank182407/Cricket_Best_XI_Analysis/blob/ef928af308adb5bb9c5918390be143fb44fa82cf/Screenshots/anchors.jpg)
 
-![finishers](https://user-images.githubusercontent.com/81465377/211144456-6eb2581f-4574-4961-b693-4c8ff0dd7b19.jpg)
+![finishers](https://github.com/amank182407/Cricket_Best_XI_Analysis/blob/ef928af308adb5bb9c5918390be143fb44fa82cf/Screenshots/finishers.jpg)
 
-![all_rounders](Screenshots/all_rounders.jpg)
+![all_rounders](https://github.com/amank182407/Cricket_Best_XI_Analysis/blob/ef928af308adb5bb9c5918390be143fb44fa82cf/Screenshots/all_rounders.jpg)
 
-![fast_bowlers](https://user-images.githubusercontent.com/81465377/211144473-03ca6186-b8e8-419f-87a1-786f6a2d62a6.jpg)
+![fast_bowlers](https://github.com/amank182407/Cricket_Best_XI_Analysis/blob/ef928af308adb5bb9c5918390be143fb44fa82cf/Screenshots/fast_bowlers.jpg)
 
-![pick_final_11](https://user-images.githubusercontent.com/81465377/211144486-4b48e1fc-fab3-4bb0-b660-7b4da5be627d.jpg)
+![pick_final_11](https://github.com/amank182407/Cricket_Best_XI_Analysis/blob/ef928af308adb5bb9c5918390be143fb44fa82cf/Screenshots/pick_final_11.jpg)
