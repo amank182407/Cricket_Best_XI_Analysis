@@ -70,12 +70,6 @@ This project focuses on scraping, transforming, and visualizing T20 World Cup 20
 
 ---
 
-This template can be modified as per your repository structure and additional details. 
-
-> To interact with the dashboard you can download the pbix file from the repository and open it in Power BI Desktop locally.
-
----
-
 # Steps involved in the project:
 
 1. 📝Requirement Scoping
